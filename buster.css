@@ -412,10 +412,10 @@ background-position: center;
     background-color: rgba(47, 49, 54, 0.56);
 }
 .uploadModal-2ifh8j .footer-3mqk7D .button-primary {
-    -webkit-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s;
     background-color: rgba(224, 23, 23, 0.38);
     color: #fb5808;
-    transition: opacity .2s ease-in-out;
+    transition: opacity .2s;
 }
 .uploadModal-2ifh8j .footer-3mqk7D .button {
     background-color: rgba(82, 89, 245, 0.24);
@@ -520,7 +520,7 @@ background: linear-gradient(to left, transparent,
     left: 0;
     background: #125ee4;
     border-radius: 14px;
-    transition: background .15s ease-in-out,box-shadow .15s ease-in-out,border .15s ease-in-out;
+    transition: background .15s box-shadow .15s border .15s;
 }
 .ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
     background: #d2ce24;
@@ -565,12 +565,12 @@ a {
     transition: opacity .5s,color .5s;
 }
 .guilds-wrapper .guilds .guild.selected:before {
-    -webkit-transition: height .25s ease-in-out,margin-top .25s ease-in-out;
+    -webkit-transition: height .25s margin-top .25s;
     background: #ef0c0c;
     border-radius: 20px;
     height: 40px;
     margin-top: -20px;
-    transition: height .25s ease-in-out,margin-top .25s ease-in-out;
+    transition: height .25s margin-top .25s;
 }
 .bda-slist li {
     background: rgba(80, 130, 206, 0.47);
